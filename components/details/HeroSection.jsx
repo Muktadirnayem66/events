@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import React from 'react';
-import EventLogo from '@/public/assets/google-io-2023-1.png'
 import ActionButton from '../ActionButton';
 import { getBlurData } from '@/utils/blur-generator';
 
