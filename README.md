@@ -1,4 +1,3 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
@@ -14,23 +13,28 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Impotant URL
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [Live URL](https://nextjs.org/docs) 
+- [GithubRepo](https://nextjs.org/learn) 
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Eventry Project Overview - 
+- Handling Error and Loading
+- Image Optimization and handling Blur placeholde
+- Implementing Search and searchTerm and debouncing
+- Meta Optimization and Dynamic meta 
+- Integrate structured Event Schema from Google Schema (SEO)
+- RSVP to an Event to buy a ticket (send email on successful payment)
+- Make an event as interested (Revalidate after db update, Server action invoked on button cliked  performance optimization with the useTransaction hook)
+- Auth details in context (use context api in next js app router)
+- complete login (basic email and password, client component to server action)
+- Complete UI Register and Register in DB (Server component to server action)
+- Integrate with mongo with next js using mongoose (connect, model, schema, queries)
+- set mongodb with events data user data , and reference 
+- Build the ui structure from the template
