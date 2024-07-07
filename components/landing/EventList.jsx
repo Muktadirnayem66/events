@@ -1,20 +1,23 @@
-import React from 'react';
-import EventCard from './EventCard';
-import { getAllEvents } from '@/db/queries';
 
-const Eventlist = async ({query}) => {
-    const allEvents = await getAllEvents(query)
-    
-    return (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
-            {
-                allEvents.map((event)=>(
+import { getAllEvents } from "@/db/queries";
+import EventCard from "./EventCard";
 
-                    <EventCard key={event.id} event={event}/> 
-                ))
-            }
-        </div>
-    );
+
+
+const EventList = async ({query}) => {
+  const allEvents = await  getAllEvents(query)
+  
+  return (
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+      {
+
+        allEvents.map((events)=>(
+          <EventCard key={events.id} events={events}/>
+        ))
+
+      }
+    </div>
+  );
 };
 
-export default Eventlist;
+export default EventList;

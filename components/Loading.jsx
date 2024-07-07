@@ -2,9 +2,7 @@ import React from 'react';
 
 const Loading = () => {
     return (
-        <div>
-            
-        </div>
+        <div>Loading Event Data...</div>
     );
 };
 

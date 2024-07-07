@@ -1,6 +1,5 @@
 import mongoose, {Schema} from 'mongoose'
 
-
 const schema = new Schema({
     name:{
         required: true,
@@ -15,13 +14,13 @@ const schema = new Schema({
         type:String
     },
     phone:{
-        required: true,
+        required:true,
         type:String
     },
     bio:{
-        required: true,
+        required:true,
         type:String
     }
 })
 
-export const userModel = mongoose.models?.users ?? mongoose.model("users", schema)
+export const userModel = mongoose.models.user ?? mongoose.model("user", schema)
